@@ -1,0 +1,17 @@
+{
+  "rooms": ["<봇이 듣고 있을 채팅방 chat_id>", "<주인 방 chat_id>"],
+  "owner_chat_id": "<주인 방 chat_id — 툴콜·기능추가는 이 방에서만>",
+  "owner_user_id": "<주인 카톡 user_id — 이 사람만 명령 가능>",
+
+  "backend": "hermes",
+  "hermes_bin": "hermes",
+  "skills_dir": "~/.hermes/skills/kakao-added",
+
+  "plugins_dir": "plugins",
+  "agent_cmd": null,
+
+  "kakao_bin": "agent-kakaotalk",
+  "data_dir": "data",
+  "poll_interval": 20,
+  "timeout": 420
+}
